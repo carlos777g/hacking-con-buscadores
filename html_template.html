@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de Google Dorks</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+        .resultado {
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        .resultado:hover {
+            background-color: #e9ecef;
+        }
+        .resultado h5 {
+            color: #007bff;
+        }
+        .resultado p {
+            font-style: italic;
+        }
+        .indice {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados de Google Dorks</h1>
+        {{ resultados }}
+    </div>
+</body>
+</html>
