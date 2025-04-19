@@ -1,12 +1,9 @@
 1.-Esta herramienta permite realizar Hacking con buscadores de manera automática 2.-También permite
 realizar busquedas en los ficheros de un directorio (haciendo uso de smartsearch.py). 3.-Puedes buscar
-en Google o DuckDuckGo (si tienes la API KEY). 4.-Puedes exportar los resultados a un fichero HTML o
-JSON. 5.-Puedes descargar los archivos que encuentres en los resultados de busqueda. 6.-Puedes usar la
-IA para generar dorks o buscar en los ficheros de un directorio. 7.-Puedes usar Selenium para realizar
-la busqueda con un navegador de manera automática.
+en Google (si tienes la API KEY). 4.-Puedes exportar los resultados a un fichero HTML o
+JSON. 5.-Puedes descargar los archivos que encuentres en los resultados de busqueda. 6.-Puedes usar IA para generar dorks o buscar en los ficheros de un directorio. 7.-Puedes usar Selenium para realizar la busqueda con un navegador de manera automática.
 ========================================================
-Librerias python necesarias:
-irements.txt 
+Librerias python necesarias (en el archivo requirements.txt): 
 requests
 python-dotenv
 rich
